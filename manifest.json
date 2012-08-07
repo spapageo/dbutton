@@ -1,0 +1,13 @@
+{
+  "name": "DButton",
+  "version": "0.3 ",
+  "manifest_version": 2,
+  "description": "A download helper for rlslog.net",
+  "content_scripts": [{
+    "matches": ["http://www.rlslog.net/*"],
+    "css": ["css/bootstrap.min.css"],
+     "js": ["js/jquery.js","js/bootstrap.min.js","js/dbutton.js"]
+  }],
+  "permissions": ["http://thepiratebay.se/"],
+  "web_accessible_resources": ["img/glyphicons-halflings-white.png","glyphicons-halflings.png"]
+}
